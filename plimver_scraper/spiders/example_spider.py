@@ -1,8 +1,7 @@
 import scrapy
 
-
-class ExampleSpider(scrapy.Spider):
-    name = 'example'
+class ProductionSpider(scrapy.Spider):
+    name = 'production'
     allowed_domains = []
 
     def start_requests(self):
